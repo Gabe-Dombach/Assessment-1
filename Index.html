@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='RES/styles.css'>
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js%27%3E'></script>
+    </head>
+    <body>
+        <header class='mainHEAD'>
+            <h1>BUDGET APP</h1>
+        </header>
+        <section  class='mainSection'>
+            <div class='leftBox'>
+                <div class='topLeft'>
+                    <h3>Please enter your budget</h3>
+                    <input type='text' id='budgetText'>
+                    <a href='#' id='calculateButt'>CALCULATE</a>
+                </div>
+                <div class='BottomLeft'>
+                    <h3>Please Enter your Expense</h3>
+                    <input type='text' id='expenseName'>
+                    <h3>Please Enter Expense Amount</h3>
+                    <input type='text' id='expenseAmmount'>
+                    <a href='#' id='addExpense'>Add Expense</a>
+                </div>
+            </div>
+            <div class='rightBox'>
+                <div class='box1'>
+                    <h2>BUDGET</h2>
+                    <ion-icon name="cash-outline"></ion-icon>
+                    <div>
+                    <span class='dollar'>$</span><span id='budgetNum'>0</span>
+                </div>
+                </div>
+                <div class='box2'>
+                    <h2>BUDGET</h2>
+<ion-icon name="card-outline"></ion-icon> 
+<div>            
+<span class='dollar'>$</span><span id='expensetNum'>0</span>
+</div>       
+                </div>
+                <div class='box3'>
+                    <h2>BUDGET</h2>
+                    <ion-icon name="pricetags-outline"></ion-icon>
+                    <div>                  
+                    <span class='dollar'>$</span><span id='finalNum'>0</span>
+                </div>  
+                </div>
+            </div>
+        </section>
+
+        <script src='RES/script.js'></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
