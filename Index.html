@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel='styleshet' href='RES/styles.css'>
+        <link rel='stylesheet' href='RES/styles.css'>
         <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js%27%3E'></script>
     </head>
     <body>
         <header class='mainHEAD'>
             <h1>BUDGET APP</h1>
         </header>
-        <section class='mainSection'>
+        <section  class='mainSection'>
             <div class='leftBox'>
                 <div class='topLeft'>
                     <h3>Please enter your budget</h3>
@@ -27,17 +27,23 @@
                 <div class='box1'>
                     <h2>BUDGET</h2>
                     <ion-icon name="cash-outline"></ion-icon>
-                    <span class='dollar'>$</span><span id='budgetNum'></span>
+                    <div>
+                    <span class='dollar'>$</span><span id='budgetNum'>0</span>
+                </div>
                 </div>
                 <div class='box2'>
                     <h2>BUDGET</h2>
-<ion-icon name="card-outline"></ion-icon>                    
-<span class='dollar'>$</span><span id='expensetNum'></span>
+<ion-icon name="card-outline"></ion-icon> 
+<div>            
+<span class='dollar'>$</span><span id='expensetNum'>0</span>
+</div>       
                 </div>
                 <div class='box3'>
                     <h2>BUDGET</h2>
-                    <ion-icon name="pricetags-outline"></ion-icon>                    
-                    <span class='dollar'>$</span><span id='finalNum'></span>
+                    <ion-icon name="pricetags-outline"></ion-icon>
+                    <div>                  
+                    <span class='dollar'>$</span><span id='finalNum'>0</span>
+                </div>  
                 </div>
             </div>
         </section>
