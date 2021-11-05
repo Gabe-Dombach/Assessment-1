@@ -75,7 +75,6 @@ body{}
     border: 2px solid red;
 }
 .rightBox{
-    margin-left:20%;
     display: flex;
     justify-content: space-between;
     width:40%;
