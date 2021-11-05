@@ -7,6 +7,7 @@ $(document).ready(function(){
       totalBudget = $("#budgetText").val();
       $("#budgetNum").html(totalBudget);
       $("#budgetText").val("");
+      $("#finalNum").html(totalBudget - expenses)
    });
 
    $("#addExpense").click(function() {
@@ -14,5 +15,6 @@ $(document).ready(function(){
       $("#expensetNum").html(expenses);
       $("#expenseAmmount").val("");
       $("#expenseName").val("");
+      $("#finalNum").html(totalBudget - expenses)
    });
 });
