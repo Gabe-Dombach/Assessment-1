@@ -11,6 +11,6 @@ function check() {
     if(userName.value !== storedName || userPw.value !== storedPw) {
         alert('ERROR');
     }else {
-        window.location.replace('index.htm');
+        window.location.replace('index.html');
     }
 }
