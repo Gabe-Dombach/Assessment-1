@@ -81,24 +81,27 @@
     
 }
 .box1{
+    margin-top: 5vh;
     display: flex;
     flex-flow: column;
-    height: 50vh;
+    height: 30vh;
     justify-content: space-between;
     font-size: x-large;
 }
 .box2{
+    margin-top: 5vh;
     display: flex;
     flex-flow: column;
-    height: 50vh;
+    height: 30vh;
     justify-content: space-between;
     font-size: x-large;
 
 }
 .box3{
+    margin-top: 5vh;
     display: flex;
     flex-flow: column;
-    height: 50vh;
+    height: 30vh;
     justify-content: space-between;
     font-size: x-large;
 
