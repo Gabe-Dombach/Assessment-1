@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{}
+
+.mainSection{
+    display: flex;
+    max-width:1440px;
+    justify-content: space-evenly;
+}
+.topLeft{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 40vw;
+    height: 30vh;
+    border: 2px solid green;
+    margin-left:5%;
+}
+.BottomLeft{
+    margin-top:10%;
+
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 40vw;
+    height: 40vh;
+    border:2px solid red;
+    margin-left: 5%;
+}
+#budgetText{
+    width:90%;
+    height: 30%;
+    margin:auto;
+    margin-top:5px;
+    margin-bottom: 0;
+}
+#calculateButt{
+    text-align: center;
+    width :40%;
+    text-decoration: none;
+    color:green;
+    margin-left:5%;
+    margin-top:2%;
+    padding:2px;
+    padding-right: 0;
+    margin-right: 0;
+    border: 2px solid green;
+}
+
+#expenseName, #expenseAmmount{
+    width:90%;
+    height: 20%;
+    margin:auto;
+    margin-top:5px;
+    margin-bottom: 0;
+}
+
+#addExpense{
+    text-align: center;
+    width :40%;
+    text-decoration: none;
+    color:red;
+    margin-left:5%;
+    margin-top:2%;
+    padding:2px;
+    padding-right: 0;
+    margin-right: 0;
+    border: 2px solid red;
+}
+.rightBox{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    width:60%;
+    height: 80vh;
+    font-size: x-large;
+}
+.box1{
+    display: flex;
+    flex-flow: column;
+    height: 80vh;
+    align-content: space-evenly;
+}
+.box2{
+    display: flex;
+    flex-flow: column;
+    height: 80vh;
+    align-content: space-evenly;
+}
+.box3{
+    display: flex;
+    flex-flow: column;
+    height: 80vh;
+    align-content: space-evenly;
+}
